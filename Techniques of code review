@@ -1,0 +1,13 @@
+1. We should give time to reviewer to review code 
+2. Document set of rules in confluence which have which coding standards each and every Team member should follow for in a team example
+- no console logs
+- give proper indentation
+- logging should be there
+Each and every developer should be confirm these checklist before giving code for code review
+3. PR should have at least two reviewers 
+- 1st normal developer
+- 2nd senior or lead developer
+4. But humans can forget to check checklist that's why automate things using Automation tool at your check in level like with eslint or other thing that if code has console logs then code should not be push and it should not go for review.
+5. As of now we do two things
+- we have defined set or rules which are needs to followed by team
+- and if there is any human error happen means human forget to remove console logs then automation tool like eslint will prevent it to check in
