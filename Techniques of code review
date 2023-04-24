@@ -11,3 +11,13 @@ Each and every developer should be confirm these checklist before giving code fo
 5. As of now we do two things
 - we have defined set or rules which are needs to followed by team
 - and if there is any human error happen means human forget to remove console logs then automation tool like eslint will prevent it to check in
+6.  By doing these things even developer can commit code which is not performant or not readable code because no eslint tool is going to catch that then comes the responsibility of reviewer who needs to check all these things , reviewer needs to be skilled enough to catch all these problems in code To check that code is having any latency issue or not ?
+7. For reviewers there are another set of rules like
+- Code should be performant
+- code should have readable means code should have meaningful names because no eslint tool is going to catch that variable name is not meaningful
+- reviewer should understand it should be not like that The way I code the same way code should be come from other people, reviewer should accept the new things from author if it is efficient
+- Generally in team there is a dedicated 2 or 3 member reviewer team who are doing code review
+- sometimes apporved the PR and meet that person over a coffee and say in formally that hey , you could do this better , I am not saying you done wrong but it could be better then that person will explain you
+8. This is process and it will not happening from day 1 , it will take some time but once your team started follow it then whole PR process will be smooth
+9. I have seen reviewer are very picky for variable name all these kinds and that's why sometime author is frustrated and resigned from job
+10. In remote working we are not able to connect with developer in fromally so instead of giving comments left and right just connect with that developer over call and do peer review by sharing screen instead of PR review and explain him what could be better.
