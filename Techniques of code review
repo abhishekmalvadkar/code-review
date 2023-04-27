@@ -21,3 +21,15 @@ Each and every developer should be confirm these checklist before giving code fo
 8. This is process and it will not happening from day 1 , it will take some time but once your team started follow it then whole PR process will be smooth
 9. I have seen reviewer are very picky for variable name all these kinds and that's why sometime author is frustrated and resigned from job
 10. In remote working we are not able to connect with developer in fromally so instead of giving comments left and right just connect with that developer over call and do peer review by sharing screen instead of PR review and explain him what could be better.
+11. One of the most important mistakes people do is using old deprecated methods or using old library or framework code which is no longer Being used or they are not good for production use cases , one shoukd be always upto date with latest language or library or framework version.
+12. Use your language optimization techniques if you are facing any issue
+13. Don't use any third party library if it's not adding much value in your project like avoid to use lodash and moment library in your code because they are not adding much value in your code.
+14. Don't overengineering your code Unless you have issue.
+15. Get your code reviewed by multiple reviewers so you will get variety of comments
+16. If you don't include third party library much the your software will be more lightweight
+17. You should always update the documentation after each feature implementations so any new joiner will understand it from there
+18. After code review changelog should be updated that what we have done through this code mplementation.
+19. You should use date-fns instead of moment js but try to complete all the requirements by using vanila js so you don't needs to add any third party library
+20. Because third party library are big so tree shaking and bundle of your code will impact because of this.
+21. We should read vanila js docs so most of cases will be converted by vanila js only without using any 3rd party libraries
+22. We are using date-fns from last six months and it's light weight and supports tree shaking and so we can full fill complex date related things using date-fns library.
